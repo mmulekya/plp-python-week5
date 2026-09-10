@@ -16,25 +16,3 @@ while True:
         break
 
 print(f"You got it in {attempts} tries!")
-Test example
-
-A full game could look like this:
-
-Guess the secret number between 1 and 20!
-Enter your guess: 15
-Too high!
-Enter your guess: 3
-Too low!
-Enter your guess: 7
-Congratulations! You guessed it!
-You got it in 3 tries!
-
-Notice that:
-
-attempts += 1
-
-increases the counter after every guess.
-
-And:
-
-break

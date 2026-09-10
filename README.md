@@ -1,17 +1,13 @@
-# PLP Python Week 5 Assignment
+# Week 5 Assignment: Password Generator & Your Own Module
 
-This assignment practices `while` loops, `for` loops, conditionals, counters, and user input.
+This assignment practices Python modules, built-in modules, functions, default values, and creating and importing a custom module.
 
 ## Files
 
-* **countdown.py** — Counts down from a number entered by the user and prints "Blast off!".
-* **guess_game.py** — A guessing game that gives "Too high!" or "Too low!" hints and counts the player's attempts.
-* **spell_it_out.py** — Prints each letter of a word individually and then prints the letters with numbers.
+- **`password_generator.py`** — Uses the `random` and `string` modules to generate random passwords with default and custom lengths.
+- **`helpers.py`** — Contains reusable `tables_needed()` and `welcome()` functions and demonstrates `if __name__ == "__main__"`.
+- **`main.py`** — Imports the custom `helpers` module and uses its functions.
 
-## While Loop vs For Loop
+## Reflection
 
-I would use a `while` loop when I want code to keep repeating until a condition is met, especially when I don't know exactly how many times the loop will run. I would use a `for` loop when I want to go through a known sequence or collection, such as each letter in a word.
-
-## Assignment
-
-Week 4 Day 5
+The hardest part was understanding how `if __name__ == "__main__":` works. It allows the test code in `helpers.py` to run when the file is executed directly, but prevents that code from running when `helpers` is imported by `main.py`.
